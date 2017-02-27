@@ -12,6 +12,7 @@ class TQBaseViewController: UIViewController
 {
     
     var presentationVC: TQPresentationController?
+    var menuControllerId: String?
 
     override func viewDidLoad()
     {
@@ -22,7 +23,7 @@ class TQBaseViewController: UIViewController
 
     func menuClicked()
     {
-        let rearViewController = storyboard!.instantiateViewController(withIdentifier: "menuVC")
+        let rearViewController = storyboard!.instantiateViewController(withIdentifier: self.menuControllerId!)
         
         self.presentationVC = TQPresentationController(presentedViewController: rearViewController, presenting: self)
         rearViewController.transitioningDelegate = self.presentationVC
@@ -33,11 +34,11 @@ class TQBaseViewController: UIViewController
         self.present(rearViewController, animated: true, completion: nil)
     }
     
-    func addMenu(withTitle title: String)
+    func addMenu(withTitle title: String, withMenuControllerId id: String)
     {
         let item1 = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(menuClicked))
         self.navigationItem.setLeftBarButton(item1, animated: true)
-        print(title)
+        self.menuControllerId = id
         self.navigationItem.title = title
     }
     

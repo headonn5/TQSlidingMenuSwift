@@ -15,6 +15,6 @@ class FacebookVC: TQBaseViewController
     {
         super.viewDidLoad()
         // Add Menu to your view controller
-        addMenu(withTitle: "Facebook")
+        addMenu(withTitle: "Facebook", withMenuControllerId: "menuVC")
     }
 }

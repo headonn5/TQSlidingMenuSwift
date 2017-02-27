@@ -15,6 +15,6 @@ class AppleVC: TQBaseViewController
     {
         super.viewDidLoad()
         // Add Menu to your view controller
-        addMenu(withTitle: "Apple")
+        addMenu(withTitle: "Apple", withMenuControllerId: "menuVC")
     }
 }

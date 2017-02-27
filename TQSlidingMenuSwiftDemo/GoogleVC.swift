@@ -15,6 +15,6 @@ class GoogleVC: TQBaseViewController
     {
         super.viewDidLoad()
         // Add Menu to your view controller
-        addMenu(withTitle: "Google")
+        addMenu(withTitle: "Google", withMenuControllerId: "menuVC")
     }
 }

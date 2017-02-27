@@ -15,6 +15,6 @@ class MyFutureCompanyVC: TQBaseViewController
     {
         super.viewDidLoad()
         // Add Menu to your view controller
-        addMenu(withTitle: "MyCompany")
+        addMenu(withTitle: "MyCompany", withMenuControllerId: "menuVC")
     }
 }
