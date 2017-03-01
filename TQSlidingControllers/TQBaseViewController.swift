@@ -8,22 +8,17 @@
 
 import UIKit
 
-class TQBaseViewController: UIViewController
+class TQBaseViewController: UIViewController, MenuControllerDelegate
 {
-    
     var presentationVC: TQPresentationController?
     var menuControllerId: String?
 
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-
-        NotificationCenter.default.addObserver(self, selector: #selector(pushViewController(_:)), name: Notification.Name(rawValue: "pushViewController"), object: nil)
-    }
-
     func menuClicked()
     {
-        let rearViewController = storyboard!.instantiateViewController(withIdentifier: self.menuControllerId!)
+        let rearViewController = storyboard!.instantiateViewController(withIdentifier: self.menuControllerId!) as! TQMenuController
+        
+        // Set menu controller delegate
+        rearViewController.menuDelegate = self
         
         self.presentationVC = TQPresentationController(presentedViewController: rearViewController, presenting: self)
         rearViewController.transitioningDelegate = self.presentationVC
@@ -42,17 +37,11 @@ class TQBaseViewController: UIViewController
         self.navigationItem.title = title
     }
     
-    func pushViewController(_ notification: Notification)
-    {
-        let idString = notification.userInfo?["id"] as? String
-        pushView(idString!)
-    }
-    
-    func pushView(_ id:String)
-    {
-        let destinationVC = storyboard!.instantiateViewController(withIdentifier: id)
+    func presentViewController(withId id: String) {
         var controllers = self.navigationController?.viewControllers
-        controllers?[0] = destinationVC
+        let destinationVC = storyboard!.instantiateViewController(withIdentifier: id)
+        //        controllers?.
+        controllers?.append(destinationVC)
         self.navigationController?.setViewControllers(controllers!, animated: false)
     }
 }

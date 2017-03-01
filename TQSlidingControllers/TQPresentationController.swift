@@ -15,7 +15,6 @@ protocol TQPresentationControllerDelegate
 
 class TQPresentationController: UIPresentationController, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning
 {
-    
     var presentationWrappingView: UIView?
     var translucentView: UIView?
     // delegate

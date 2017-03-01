@@ -8,9 +8,15 @@
 
 import UIKit
 
+protocol MenuControllerDelegate: NSObjectProtocol
+{
+    func presentViewController(withId id: String)
+}
+
 class TQMenuController: UITableViewController
 {
-
+    weak var menuDelegate: MenuControllerDelegate?
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -29,8 +35,8 @@ class TQMenuController: UITableViewController
         self.updatePreferredContentSize(withTraitCollection: newCollection)
     }
     
-    func performCustomSegue(withIdentifier: String)
+    func performCustomSegue(withIdentifier id: String)
     {
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "pushViewController"), object: nil, userInfo: ["id": withIdentifier])
+        menuDelegate?.presentViewController(withId: id)
     }
 }
