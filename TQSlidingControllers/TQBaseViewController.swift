@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TQBaseViewController: UIViewController, MenuControllerDelegate
+open class TQBaseViewController: UIViewController, MenuControllerDelegate
 {
     var presentationVC: TQPresentationController?
     var menuControllerId: String?
@@ -29,12 +29,12 @@ class TQBaseViewController: UIViewController, MenuControllerDelegate
         self.present(rearViewController, animated: true, completion: nil)
     }
     
-    func addMenu(withTitle title: String, withMenuControllerId id: String)
+    open func setNavigtionMenu(withScreenTitle screenTitle: String, withMenuControllerId id: String)
     {
         let item1 = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(menuClicked))
         self.navigationItem.setLeftBarButton(item1, animated: true)
         self.menuControllerId = id
-        self.navigationItem.title = title
+        self.navigationItem.title = screenTitle
     }
     
     func presentViewController(withId id: String) {
