@@ -16,14 +16,13 @@
 		1933F6391E63F16800E6A037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933F62F1E63F16800E6A037 /* LaunchScreen.storyboard */; };
 		1933F63A1E63F16800E6A037 /* FacebookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6311E63F16800E6A037 /* FacebookVC.swift */; };
 		1933F63B1E63F16800E6A037 /* GoogleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6321E63F16800E6A037 /* GoogleVC.swift */; };
-		1933F63C1E63F16800E6A037 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1933F6331E63F16800E6A037 /* Info.plist */; };
 		1933F63D1E63F16800E6A037 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6341E63F16800E6A037 /* MenuTableViewController.swift */; };
 		1933F63E1E63F16800E6A037 /* MyFutureCompanyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6351E63F16800E6A037 /* MyFutureCompanyVC.swift */; };
 		1933F6401E63F24F00E6A037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933F63F1E63F24F00E6A037 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQSlidingMenuSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQSlidingMenuSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1933F6251E63F13400E6A037 /* TQBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQBaseViewController.swift; sourceTree = "<group>"; };
 		1933F6261E63F13400E6A037 /* TQMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQMenuController.swift; sourceTree = "<group>"; };
 		1933F6271E63F13400E6A037 /* TQPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQPresentationController.swift; sourceTree = "<group>"; };
@@ -53,7 +52,7 @@
 		1933F5F51E63EFDC00E6A037 = {
 			isa = PBXGroup;
 			children = (
-				1933F6241E63F13400E6A037 /* TQSlidingControllers */,
+				1933F6241E63F13400E6A037 /* TQSlidingMenu */,
 				1933F62B1E63F16800E6A037 /* TQSlidingMenuSwiftDemo */,
 				1933F5FF1E63EFDC00E6A037 /* Products */,
 			);
@@ -62,18 +61,19 @@
 		1933F5FF1E63EFDC00E6A037 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwift.app */,
+				1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwiftDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1933F6241E63F13400E6A037 /* TQSlidingControllers */ = {
+		1933F6241E63F13400E6A037 /* TQSlidingMenu */ = {
 			isa = PBXGroup;
 			children = (
 				1933F6251E63F13400E6A037 /* TQBaseViewController.swift */,
 				1933F6261E63F13400E6A037 /* TQMenuController.swift */,
 				1933F6271E63F13400E6A037 /* TQPresentationController.swift */,
 			);
+			name = TQSlidingMenu;
 			path = TQSlidingControllers;
 			sourceTree = "<group>";
 		};
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1933F5FD1E63EFDC00E6A037 /* TQSlidingMenuSwift */ = {
+		1933F5FD1E63EFDC00E6A037 /* TQSlidingMenuSwiftDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1933F6101E63EFDC00E6A037 /* Build configuration list for PBXNativeTarget "TQSlidingMenuSwift" */;
+			buildConfigurationList = 1933F6101E63EFDC00E6A037 /* Build configuration list for PBXNativeTarget "TQSlidingMenuSwiftDemo" */;
 			buildPhases = (
 				1933F5FA1E63EFDC00E6A037 /* Sources */,
 				1933F5FB1E63EFDC00E6A037 /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = TQSlidingMenuSwift;
+			name = TQSlidingMenuSwiftDemo;
 			productName = TQSlidingMenuSwift;
-			productReference = 1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwift.app */;
+			productReference = 1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwiftDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1933F5F91E63EFDC00E6A037 /* Build configuration list for PBXProject "TQSlidingMenuSwift" */;
+			buildConfigurationList = 1933F5F91E63EFDC00E6A037 /* Build configuration list for PBXProject "TQSlidingMenuSwiftDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1933F5FD1E63EFDC00E6A037 /* TQSlidingMenuSwift */,
+				1933F5FD1E63EFDC00E6A037 /* TQSlidingMenuSwiftDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +156,6 @@
 			files = (
 				1933F6381E63F16800E6A037 /* Assets.xcassets in Resources */,
 				1933F6391E63F16800E6A037 /* LaunchScreen.storyboard in Resources */,
-				1933F63C1E63F16800E6A037 /* Info.plist in Resources */,
 				1933F6401E63F24F00E6A037 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1933F5F91E63EFDC00E6A037 /* Build configuration list for PBXProject "TQSlidingMenuSwift" */ = {
+		1933F5F91E63EFDC00E6A037 /* Build configuration list for PBXProject "TQSlidingMenuSwiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1933F60E1E63EFDC00E6A037 /* Debug */,
@@ -323,13 +322,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1933F6101E63EFDC00E6A037 /* Build configuration list for PBXNativeTarget "TQSlidingMenuSwift" */ = {
+		1933F6101E63EFDC00E6A037 /* Build configuration list for PBXNativeTarget "TQSlidingMenuSwiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1933F6111E63EFDC00E6A037 /* Debug */,
 				1933F6121E63EFDC00E6A037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
