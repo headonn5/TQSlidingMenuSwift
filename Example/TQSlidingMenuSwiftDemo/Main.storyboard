@@ -12,7 +12,7 @@
         <!--GoogleVC-->
         <scene sceneID="FAp-KB-UQH">
             <objects>
-                <viewController storyboardIdentifier="id_google" id="cq0-WI-SeS" customClass="GoogleVC" customModule="TQSlidingMenuSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="id_google" id="cq0-WI-SeS" customClass="GoogleVC" customModule="TQSlidingMenuSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r9Y-n5-yQ1"/>
                         <viewControllerLayoutGuide type="bottom" id="Pel-j8-Rpc"/>
@@ -44,7 +44,7 @@
         <!--AppleVC-->
         <scene sceneID="9VX-Kn-rRk">
             <objects>
-                <viewController storyboardIdentifier="id_apple" id="ch4-Kq-2Mo" customClass="AppleVC" customModule="TQSlidingMenuSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="id_apple" id="ch4-Kq-2Mo" customClass="AppleVC" customModule="TQSlidingMenuSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="J8n-Q3-hza"/>
                         <viewControllerLayoutGuide type="bottom" id="jvb-Ym-0it"/>
@@ -75,7 +75,7 @@
         <!--FacebookVC-->
         <scene sceneID="CJy-u6-Y5G">
             <objects>
-                <viewController storyboardIdentifier="id_facebook" id="JK0-ch-I5x" customClass="FacebookVC" customModule="TQSlidingMenuSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="id_facebook" id="JK0-ch-I5x" customClass="FacebookVC" customModule="TQSlidingMenuSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9NM-94-Sl8"/>
                         <viewControllerLayoutGuide type="bottom" id="EqG-wh-Nt2"/>
@@ -111,27 +111,18 @@
         <!--Menu Table View Controller-->
         <scene sceneID="BKb-4p-Hug">
             <objects>
-                <tableViewController storyboardIdentifier="menuVC" id="K9V-zJ-8WV" customClass="MenuTableViewController" customModule="TQSlidingMenuSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="menuVC" id="K9V-zJ-8WV" customClass="MenuTableViewController" customModule="TQSlidingMenuSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cXx-E6-WO5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="IdCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="IdCell" textLabel="GoL-Je-dMy" style="IBUITableViewCellStyleDefault" id="7lu-Ha-t7i">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="7lu-Ha-t7i">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7lu-Ha-t7i" id="Vaj-Fn-G0c">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GoL-Je-dMy">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -148,7 +139,7 @@
         <!--My Future CompanyVC-->
         <scene sceneID="0gb-7S-eZu">
             <objects>
-                <viewController storyboardIdentifier="id_future_company" id="vWm-c5-6i1" customClass="MyFutureCompanyVC" customModule="TQSlidingMenuSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="id_future_company" id="vWm-c5-6i1" customClass="MyFutureCompanyVC" customModule="TQSlidingMenuSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jA0-Fi-IIL"/>
                         <viewControllerLayoutGuide type="bottom" id="YbZ-Hp-NUP"/>

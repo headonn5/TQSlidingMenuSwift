@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1933F6281E63F13400E6A037 /* TQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6251E63F13400E6A037 /* TQBaseViewController.swift */; };
-		1933F6291E63F13400E6A037 /* TQMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6261E63F13400E6A037 /* TQMenuController.swift */; };
-		1933F62A1E63F13400E6A037 /* TQPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6271E63F13400E6A037 /* TQPresentationController.swift */; };
 		1933F6361E63F16800E6A037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F62C1E63F16800E6A037 /* AppDelegate.swift */; };
 		1933F6371E63F16800E6A037 /* AppleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F62D1E63F16800E6A037 /* AppleVC.swift */; };
 		1933F6381E63F16800E6A037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1933F62E1E63F16800E6A037 /* Assets.xcassets */; };
 		1933F6391E63F16800E6A037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933F62F1E63F16800E6A037 /* LaunchScreen.storyboard */; };
 		1933F63A1E63F16800E6A037 /* FacebookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6311E63F16800E6A037 /* FacebookVC.swift */; };
 		1933F63B1E63F16800E6A037 /* GoogleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6321E63F16800E6A037 /* GoogleVC.swift */; };
+		1933F63C1E63F16800E6A037 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1933F6331E63F16800E6A037 /* Info.plist */; };
 		1933F63D1E63F16800E6A037 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6341E63F16800E6A037 /* MenuTableViewController.swift */; };
 		1933F63E1E63F16800E6A037 /* MyFutureCompanyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F6351E63F16800E6A037 /* MyFutureCompanyVC.swift */; };
 		1933F6401E63F24F00E6A037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933F63F1E63F24F00E6A037 /* Main.storyboard */; };
+		1933F7871E682FA500E6A037 /* TQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F7841E682FA500E6A037 /* TQBaseViewController.swift */; };
+		1933F7881E682FA500E6A037 /* TQMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F7851E682FA500E6A037 /* TQMenuController.swift */; };
+		1933F7891E682FA500E6A037 /* TQPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F7861E682FA500E6A037 /* TQPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQSlidingMenuSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1933F6251E63F13400E6A037 /* TQBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQBaseViewController.swift; sourceTree = "<group>"; };
-		1933F6261E63F13400E6A037 /* TQMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQMenuController.swift; sourceTree = "<group>"; };
-		1933F6271E63F13400E6A037 /* TQPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQPresentationController.swift; sourceTree = "<group>"; };
 		1933F62C1E63F16800E6A037 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1933F62D1E63F16800E6A037 /* AppleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleVC.swift; sourceTree = "<group>"; };
 		1933F62E1E63F16800E6A037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +34,9 @@
 		1933F6341E63F16800E6A037 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		1933F6351E63F16800E6A037 /* MyFutureCompanyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFutureCompanyVC.swift; sourceTree = "<group>"; };
 		1933F63F1E63F24F00E6A037 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1933F7841E682FA500E6A037 /* TQBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TQBaseViewController.swift; path = ../TQSlidingMenuSwift/TQBaseViewController.swift; sourceTree = "<group>"; };
+		1933F7851E682FA500E6A037 /* TQMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TQMenuController.swift; path = ../TQSlidingMenuSwift/TQMenuController.swift; sourceTree = "<group>"; };
+		1933F7861E682FA500E6A037 /* TQPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TQPresentationController.swift; path = ../TQSlidingMenuSwift/TQPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +53,9 @@
 		1933F5F51E63EFDC00E6A037 = {
 			isa = PBXGroup;
 			children = (
-				1933F6241E63F13400E6A037 /* TQSlidingMenu */,
+				1933F7841E682FA500E6A037 /* TQBaseViewController.swift */,
+				1933F7851E682FA500E6A037 /* TQMenuController.swift */,
+				1933F7861E682FA500E6A037 /* TQPresentationController.swift */,
 				1933F62B1E63F16800E6A037 /* TQSlidingMenuSwiftDemo */,
 				1933F5FF1E63EFDC00E6A037 /* Products */,
 			);
@@ -64,17 +67,6 @@
 				1933F5FE1E63EFDC00E6A037 /* TQSlidingMenuSwiftDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1933F6241E63F13400E6A037 /* TQSlidingMenu */ = {
-			isa = PBXGroup;
-			children = (
-				1933F6251E63F13400E6A037 /* TQBaseViewController.swift */,
-				1933F6261E63F13400E6A037 /* TQMenuController.swift */,
-				1933F6271E63F13400E6A037 /* TQPresentationController.swift */,
-			);
-			name = TQSlidingMenu;
-			path = TQSlidingControllers;
 			sourceTree = "<group>";
 		};
 		1933F62B1E63F16800E6A037 /* TQSlidingMenuSwiftDemo */ = {
@@ -156,6 +148,7 @@
 			files = (
 				1933F6381E63F16800E6A037 /* Assets.xcassets in Resources */,
 				1933F6391E63F16800E6A037 /* LaunchScreen.storyboard in Resources */,
+				1933F63C1E63F16800E6A037 /* Info.plist in Resources */,
 				1933F6401E63F24F00E6A037 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,14 +161,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1933F6361E63F16800E6A037 /* AppDelegate.swift in Sources */,
-				1933F62A1E63F13400E6A037 /* TQPresentationController.swift in Sources */,
 				1933F63A1E63F16800E6A037 /* FacebookVC.swift in Sources */,
 				1933F63E1E63F16800E6A037 /* MyFutureCompanyVC.swift in Sources */,
 				1933F6371E63F16800E6A037 /* AppleVC.swift in Sources */,
 				1933F63D1E63F16800E6A037 /* MenuTableViewController.swift in Sources */,
-				1933F6281E63F13400E6A037 /* TQBaseViewController.swift in Sources */,
+				1933F7891E682FA500E6A037 /* TQPresentationController.swift in Sources */,
+				1933F7871E682FA500E6A037 /* TQBaseViewController.swift in Sources */,
 				1933F63B1E63F16800E6A037 /* GoogleVC.swift in Sources */,
-				1933F6291E63F13400E6A037 /* TQMenuController.swift in Sources */,
+				1933F7881E682FA500E6A037 /* TQMenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
